@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_waypoints",
+  "version": "${version}",
+  "name": "Simple Waypoints",
+  "description": "Standalone client-side waypoint manager.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.rubab.simplewaypoints.SimpleWaypointsClient"] },
+  "depends": { "fabricloader": ">=0.19.5", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*" }
+}
